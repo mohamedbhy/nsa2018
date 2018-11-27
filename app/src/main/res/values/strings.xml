@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Nasa Space Apps 2018</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="all">ALL</string>
+    <string name="saved">SAVED</string>
+    <string name="search">Search ...</string>
+    <string name="comment">Add Comment ...</string>
+    <string name="comments">Comments</string>
+    <string name="mission_name">Mission name: </string>
+    <string name="launch_date">Launch date: </string>
+    <string name="rocket_name">Rocket name: </string>
+    <string name="number_of_cores">Number of cores: </string>
+    <string name="number_of_payloads">Number of payloads: </string>
+    <string name="details">Details: </string>
+    <string name="static_fire_date">Static fire date: </string>
+    <string name="launch_success">Launch succeed: </string>
+    <string name="more_details">More details: </string>
+    <string name="no_internet">Cannot retrive data please check your internet connexion</string>
+    <string name="exit">Exit</string>
+    <string name="channel_name">NSA Channel</string>
+    <string name="channel_description">NSA Description</string>
+    <string name="detailsa">Details</string>
+    <plurals name="cores_serials">
+        <item quantity="one">core serial: </item>
+        <item quantity="other">cores serials: </item>
+    </plurals>
+    <plurals name="payloads_ids">
+        <item quantity="one">payload id: </item>
+        <item quantity="other">payloads ids: </item>
+    </plurals>
+    <string name="title_activity_comments">Comments</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

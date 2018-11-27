@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/commentbg"
+        android:id="@+id/comment"
+        android:hint="@string/search"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textColorHint="@color/light"
+        android:textSize="14sp"
+        android:textCursorDrawable="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/scomment"
+        />
+    <ImageButton
+        android:id="@+id/scomment"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sendit"
+        app:layout_constraintTop_toTopOf="@id/comment"
+        app:layout_constraintBottom_toBottomOf="@id/comment"
+        app:layout_constraintStart_toEndOf="@id/comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@android:color/transparent" />
+</android.support.constraint.ConstraintLayout>
