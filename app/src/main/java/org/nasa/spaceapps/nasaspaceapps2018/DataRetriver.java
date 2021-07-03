@@ -139,7 +139,7 @@ public class DataRetriver extends AsyncTask<Void, Integer, HashMap<String,Boolea
             if(item.getString("details")!="null")values.put(SQLItems.COLUMN_DETAILS,item.getString("details"));
             if(item.getJSONObject("links").getString("article_link")!="null")values.put(SQLItems.COLUMN_MORE_DETAILS,item.getJSONObject("links").getString("article_link"));
             if(item.getJSONObject("links").getString("mission_patch_small")!="null")values.put(SQLItems.COLUMN_IMAGE,item.getJSONObject("links").getString("mission_patch_small"));
-            if(item.getJSONObject("links").getString("video_link")!="null")values.put(SQLItems.COLUMN_YOUTUBE_ID,item.getJSONObject("links").getString("video_link").split("v=")[1]);
+            if(item.getJSONObject("links").getString("youtube_id")!="null")values.put(SQLItems.COLUMN_YOUTUBE_ID,item.getJSONObject("links").getString("youtube_id"));
             if (saves == null || item.getInt("flight_number") == 0) {
                 values.put(SQLItems.COLUMN_SAVED, false);
             } else {
